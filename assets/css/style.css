@@ -322,3 +322,320 @@ box-shadow: 0px 35px 77px -17px rgba(0,0,0,0.64);
     width:400px;
   }
 }
+/*contact page*/
+.contact-title{
+  color: #0ed4ea;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+  text-align: center;
+  margin: 2rem 0;
+  margin-top: 150px;
+  padding-bottom: 20px;
+  margin-left: 70px;
+}
+h3{
+  font-family:'Playfair Display', serif;
+  color: #000000;
+  font-size: 35px;
+}
+.contact-text{
+  font-family:'Roboto', sans-serif;
+  color: #000000;
+  font-size: 20px;
+  margin-top: 10px;
+  line-height: 30px;
+}
+html {
+  font-size: 2.5em;
+}
+body {
+  background-color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.email{
+  position: relative;
+  z-index: 2; 
+  margin: auto; 
+  width: 48px; 
+  height: 48px; 
+  border: 8px solid white;
+  line-height: 1px; 
+  border-radius: 50%; 
+  background: #E04C40; 
+  vertical-align: middle;
+  margin-left: 120px;
+}
+.email i{
+  font-size: 20px !important; 
+  color: #ffffff !important;
+  margin-top: 6px;
+}
+.email p{
+  font-size: 20px;
+  font-family:'Roboto', sans-serif;
+  color: #000000;
+  margin-left: 40px;
+  margin-top: -12px;
+  float: center;
+}
+
+/* Wrapper */
+.icon-button {
+  background-color: #ffffff;
+  border-radius: 2.6rem;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.3rem;
+  height: 2.6rem;
+  line-height: 2.6rem;
+  margin: 0 5px;
+  position: relative;
+  text-align: center;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 2.6rem;
+}
+
+/* Circle */
+.icon-button span {
+  border-radius: 0;
+  display: block;
+  height: 0;
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+       -o-transition: all 0.3s;
+          transition: all 0.3s;
+  width: 0;
+}
+.icon-button:hover span {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 2rem;
+  margin: -1rem;
+}
+
+/* Icons */
+.icon-button i {
+  background: none;
+  color: #ffffff;
+  height: 2.6rem;
+  left: 0;
+  line-height: 2.6rem;
+  position: absolute;
+  top: 0;
+  -webkit-transition: all 0.3s;
+     -moz-transition: all 0.3s;
+       -o-transition: all 0.3s;
+          transition: all 0.3s;
+  width: 2.6rem;
+  z-index: 10;
+}
+
+.linkedin span {
+  background-color: #007BB6;
+}
+.github span {
+  background-color: #000000;
+}
+.skype span {
+  background-color: #02B0F0;
+}
+
+
+.icon-button .fa-linkedin {
+  color: #007BB6;
+}
+.icon-button .fa-github {
+  color: #000000;
+}
+.icon-button .fa-skype {
+  color: #02B0F0;
+}
+
+.icon-button:hover .fa-linkedin,
+.icon-button:hover .fa-github,
+.icon-button:hover .fa-skype{
+  color: white;
+}
+
+@media all and (max-width: 680px) {
+  .icon-button {
+    border-radius: 1.6rem;
+    font-size: 0.8rem;
+    height: 1.6rem;
+    line-height: 1.6rem;
+    width: 1.6rem;
+  }
+
+  .icon-button:hover span {
+    width: 1.6rem;
+    height: 1.6rem;
+    border-radius: 1.6rem;
+    margin: -0.8rem;
+  }
+
+  /* Icons */
+  .icon-button i {
+    height: 1.6rem;
+    line-height: 1.6rem;
+    width: 1.6rem;
+  }
+  body {
+    padding: 10px;
+  }
+
+}
+#form{
+  margin-top: 30px;
+}
+
+#form h4{
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  color: #000000;
+  margin-left: -110px;
+  margin-bottom: 30px;
+}
+
+#form fieldset {
+  font-size: .7rem;
+  position: relative;
+  border: none;
+  margin-bottom: 0.25em;
+  padding: 0.25em 0;
+}
+#form fieldset label {
+  font-size: 0.475rem;
+  display: block;
+  position: absolute;
+  right: 0.125em;
+  top: 1em;
+  color: #e04c40;
+}
+#form input,
+#form textarea,
+#form button {
+  border: 0;
+}
+#form input:focus,
+#form textarea:focus,
+#form button:focus {
+  outline: none;
+}
+#form input,
+#form textarea {
+  display: block;
+  font-family: 'Playfair Display', serif;
+  font-size: .5rem;
+  padding: 0.2em 0;
+  margin-left: 153px;
+  width: 400px;
+  background: none;
+  color: #000000;
+  border-bottom: 1px solid #000000;
+  -webkit-transition: border 300ms ease-in-out;
+  transition: border 300ms ease-in-out;
+}
+#form input:focus,
+#form textarea:focus {
+  border-bottom: 1px solid #000000;
+}
+#form input::-webkit-input-placeholder,
+#form textarea::-webkit-input-placeholder {
+  color: #000000;
+}
+#form input:-ms-input-placeholder,
+#form textarea:-ms-input-placeholder {
+  color: #000000;
+}
+#form input::-ms-input-placeholder,
+#form textarea::-ms-input-placeholder {
+  color: #000000;
+}
+#form input::placeholder,
+#form textarea::placeholder {
+  color: #000000;
+}
+#form button {
+  text-transform: uppercase;
+  letter-spacing: .5px;
+  font-size: .5rem;
+  display: block;
+  background: #e04c40;
+  color: #ffffff;
+  padding: .5em 1em;
+  margin-left: 152px;
+  border-radius: 10px;
+  -webkit-box-shadow: 0 0 40px 0 rgba(21, 21, 21, 0.6);
+          box-shadow: 0 0 40px 0 rgba(21, 21, 21, 0.6);
+}
+#form button:hover {
+  -webkit-animation: swell 500ms ease-in-out;
+          animation: swell 500ms ease-in-out;
+  cursor: pointer;
+}
+#form textarea {
+  resize: none;
+}
+
+#form{
+  -webkit-animation: Contact 600ms ease-in-out forwards;
+          animation: Contact 600ms ease-in-out forwards;
+}
+
+@-webkit-keyframes form {
+  0% {
+    -webkit-transform: translateX(50vw);
+            transform: translateX(50vw);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@keyframes form {
+  0% {
+    -webkit-transform: translateX(50vw);
+            transform: translateX(50vw);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+@-webkit-keyframes swell {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
+@keyframes swell {
+  0% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+  }
+  100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+}
