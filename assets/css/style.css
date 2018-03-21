@@ -191,5 +191,29 @@ path {
   margin-top: -15px;
   margin-left: -300px;
 }
-
-
+/*skills page*/
+#skills{
+  padding-top: 120px;
+  background-color:#ffffff;
+}
+.skills-title{
+  text-align: center;
+  color: #0ed4ea;
+  font-family: 'Playfair Display', serif;
+  font-size: 50px;
+}
+.skill-type{
+  color: #000000;
+  text-align: left;
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  padding-top: 30px;
+}
+hr{
+  border-top: 3px double #8c8b8b;
+}
+.skill-item{
+  display: inline-block;
+  font-size: 120px;
+  margin: 15px;
+}
