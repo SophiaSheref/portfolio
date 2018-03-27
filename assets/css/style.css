@@ -1,4 +1,5 @@
 /*home page styling*/
+/*background image*/
 .image {
   background: url(background.jpg) no-repeat center center;
   background-size: cover;
@@ -25,7 +26,7 @@ h1{
   margin-top: 35px;
   margin-left: 325px;
 }
-
+/*navbar styling*/
 .navbar {
   height: 70px;
   font-family: 'Playfair Display', serif;
@@ -88,7 +89,7 @@ h1{
   -webkit-transition: color 1s ease 0s;
   transition: color 1s ease 0s;
 }
-
+/*scroll down icon styling*/
 .scrollDown {
   width: 24px;
   height: 24px;
@@ -184,6 +185,7 @@ h1{
 path {
   stroke: #0ed4ea;
 }
+/*download resume icon*/
 .titanic.titanic-cloud {
   background-size: -10px;
   height: 100px;
@@ -449,7 +451,7 @@ body {
   background-color: #02B0F0;
 }
 
-
+/*animation effect when hover over icon*/
 .icon-button .fa-linkedin {
   color: #007BB6;
 }
@@ -459,13 +461,11 @@ body {
 .icon-button .fa-skype {
   color: #02B0F0;
 }
-
 .icon-button:hover .fa-linkedin,
 .icon-button:hover .fa-github,
 .icon-button:hover .fa-skype{
   color: white;
 }
-
 @media all and (max-width: 680px) {
   .icon-button {
     border-radius: 1.6rem;
@@ -481,8 +481,6 @@ body {
     border-radius: 1.6rem;
     margin: -0.8rem;
   }
-
-  /* Icons */
   .icon-button i {
     height: 1.6rem;
     line-height: 1.6rem;
@@ -491,8 +489,8 @@ body {
   body {
     padding: 10px;
   }
-
 }
+/*form styling*/
 #form{
   margin-top: 30px;
   margin-bottom: 30px;
@@ -640,7 +638,7 @@ body {
             transform: scale(1);
   }
 }
-
+/*footer styling*/
 .fixed_footer hr{
     border-bottom: 1px solid #000000;
 } 
